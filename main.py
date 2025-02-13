@@ -8,8 +8,6 @@ import uuid
 from collections import defaultdict
 import secrets
 from config import DOCS_USERNAME, DOCS_PASSWORD
-import subprocess
-subprocess.Popen(["python", "new.py"])
 # Initialize security for docs only
 security = HTTPBasic()
 
